@@ -1,6 +1,115 @@
+
+body{
+    font-family: 'Baloo 2', cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+/* firsthalf section  */
 img{
     background: black;
     height: 160px;
-    width: 100vw;
-    margin: 0%; 
+    width: 98.9vw;
+}
+
+
+.firsthalf{
+    width: 1200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.firsthalf h1{
+    font-size: 55px;
+    font-weight:bolder;
+    color: gold;
+}
+
+.firsthalf h2{
+    color: rgb(45, 45, 192);
+}
+
+.firsthalf p{
+    font-size: 27px;
+    color: white;
+}
+
+
+
+/* image section  */
+.imgsec{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 640px;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+
+#imghead h2{
+    color:darkorange;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.pic img{
+    width: 400px;
+    height: 400px;
+    margin:30px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+
+.pic img:hover{
+    transform: scale(1.05);
+}
+.pic p{
+    color:gold;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+/* secondhalf section  */
+.secondhalf{
+    width: 740px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-image: url(/Images/design-space-paper-textured-background_53876-42312.webp);
+    display: block;
+    margin: auto;
+    padding: 90px;
+}
+.secondhalf img{
+    height: 1000px;
+}
+
+.secondhalf h2{
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+.items{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.items input {
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    display: block;
+    width: 470px;
+    padding: 13px;
+    margin: 14px auto;
+    /* border: 2px solid black; */
+    border-radius: 21px;
 }
