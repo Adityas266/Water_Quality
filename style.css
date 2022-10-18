@@ -1,19 +1,26 @@
+html{
+    display: block;
+    margin: auto;
+}
+
 body {
+    
     font-family: 'Baloo 2', cursive;
     padding: 0;
     margin: 0;
     font-size: 20px;
     background-color: black;
+    box-sizing: border-box;
 }
 
 
 /* firsthalf section  */
 img {
+   
     background: black;
     height: 160px;
     width: 98.9vw;
 }
-
 
 .firsthalf {
     width: 1200px;
@@ -26,10 +33,13 @@ img {
     font-size: 55px;
     font-weight: bolder;
     color: gold;
+    text-shadow: 2px 2px 20px gold;
 }
 
 .firsthalf h2 {
     color: rgb(45, 45, 192);
+    text-shadow: 2px 2px 20px rgb(45, 45, 192);
+
 }
 
 .firsthalf p {
@@ -51,12 +61,15 @@ img {
 
 #imghead h2 {
     color: darkorange;
+    text-shadow: 2px 2px 20px orange;
     padding: 40px;
     margin: 10px;
     text-align: center;
 }
 
 .pic img {
+    display: flex;
+    flex-direction: row;
     width: 400px;
     height: 400px;
     margin: 30px;
@@ -66,6 +79,8 @@ img {
 
 .pic img:hover {
     transform: scale(1.05);
+    box-shadow: 1px 1px 22px 6px white;
+
 }
 
 .pic p {
@@ -93,6 +108,7 @@ img {
 
 .secondhalf h2 {
     color: orange;
+    text-shadow: 2px 2px 20px orange;
     text-align: center;
     font-size: 40px;
 }
@@ -105,6 +121,7 @@ img {
     padding: 20px;
     align-items: center;
     justify-content: center;
+
 }
 
 .items input {
@@ -118,23 +135,45 @@ img {
     /* border: 2px solid black; */
     border-radius: 21px;
     transition: 0.3s ease;
+    
 
 }
 
-.items input:hover{
+.items input:hover {
     transform: scale(1.05);
+    box-shadow: 1px 1px 22px 6px rgba(19, 20, 18, 0.5);
+
+    
 
 }
 
-.items button{
+.items button {
     padding: 8px;
     border-radius: 10px;
     background-color: rgb(228, 228, 228);
     transition: 0.3s ease;
     font-weight: bolder;
+    box-shadow: 1px 1px 22px 6px rgba(19, 20, 18, 0.5);
+
 }
 
-.items button:hover{
-    transform: scale(1.05);
-background-color: rgba(181, 172, 172, 0.74);
+.items button:hover {
+    /* transform: scale(1.05); */
+    background-color: rgba(181, 172, 172, 0.74);
+    animation-name: slide;
+    animation-duration: 1s;
 }
+
+@keyframes slide {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+
+    to{
+        top: 0px;
+        right: 20px;
+
+    }
+}
+
