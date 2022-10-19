@@ -1,4 +1,7 @@
-<html>
+<!DOCTYPE html>
+
+<head>
+<html lang="en">
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -6,10 +9,13 @@
 <link rel="stylesheet" href="style.css">
 
 <head>
-    <title>
-        Advanced Database Management System </title>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Advanced Database Management System </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+</head>
 
 <body>
     <div>
@@ -53,7 +59,7 @@
 
         <div class="formsec">
             <h2> ENTER YOUR READINGS HERE:</h2>
-            <form>
+            <form class="container" method="post">
                 <div class="items">
                     <label for="StaionCode">Station Code:</label>
                     <input type="text" id="staionCode" name="STATON-CODE" placeholder="Enter Your Station Code">
@@ -85,11 +91,11 @@
                 </div>
                 <div class="items">
                     <label for="fecal coliform">Fecal Coliform (MPN/100ml)</label>
-                    <input type="text" id="fecal coliform" name="FECAL COLIFORM" placeholder="Enter in MPN/100ml">
+                    <input type="text" id="fecal coliform" name="FECAL_COLIFORM" placeholder="Enter in MPN/100ml">
                 </div>
                 <div class="items">
                     <label for="total coliform">Total Coliform(MPN/100ml)Mean</label>
-                    <input type="text" id="total coliform" name="TOTAL COLIFORM" placeholder="Enter in MPN/100ml">
+                    <input type="text" id="total coliform" name="TOTAL_COLIFORM" placeholder="Enter in MPN/100ml">
                 </div>
                 <div class="items">
                     <button>
