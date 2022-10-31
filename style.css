@@ -1,25 +1,21 @@
-html{
-    display: block;
-    margin: auto;
-}
-
 body {
-    
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-image:url(/Images/ana-frantz-3uAHKIvavw8-unsplash.jpg);
     font-family: 'Baloo 2', cursive;
     padding: 0;
     margin: 0;
     font-size: 20px;
-    background-color: black;
     box-sizing: border-box;
 }
 
 
 /* firsthalf section  */
 img {
-   
     background: black;
     height: 160px;
     width: 98.9vw;
+    border-bottom: zpx solid black;
 }
 
 .firsthalf {
@@ -32,19 +28,23 @@ img {
 .firsthalf h1 {
     font-size: 55px;
     font-weight: bolder;
-    color: gold;
-    text-shadow: 2px 2px 20px gold;
+    margin-top: 21px;
+    margin-bottom: 102px;
+    color: #0000008a;
+    text-shadow: 2px 2px 20px;
 }
 
 .firsthalf h2 {
-    color: rgb(45, 45, 192);
-    text-shadow: 2px 2px 20px rgb(45, 45, 192);
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
 
 }
 
 .firsthalf p {
     font-size: 27px;
-    color: white;
+    color: #7b0000;
+    padding-bottom: 60px;
 }
 
 
@@ -53,6 +53,7 @@ img {
 .imgsec {
     display: flex;
     flex-direction: row;
+    margin-top: -50px;
     margin-bottom: 20px;
     height: 640px;
     align-items: center;
@@ -60,10 +61,9 @@ img {
 }
 
 #imghead h2 {
-    color: darkorange;
-    text-shadow: 2px 2px 20px orange;
-    padding: 40px;
-    margin: 10px;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -75,6 +75,8 @@ img {
     margin: 30px;
     border-radius: 50px;
     transition: 0.2s ease;
+    border: 3px solid black;
+
 }
 
 .pic img:hover {
@@ -84,7 +86,7 @@ img {
 }
 
 .pic p {
-    color: gold;
+    color: #7b0000;
     text-align: center;
     font-size: 28px;
 }
@@ -94,7 +96,7 @@ img {
 /* secondhalf section  */
 .secondhalf {
     width: 740px;
-    border: 2px solid white;
+    border: 3px solid black;
     border-radius: 50px;
     background-image: url(/Images/design-space-paper-textured-background_53876-42312.webp);
     display: block;
@@ -102,16 +104,14 @@ img {
     padding: 90px;
 }
 
-.secondhalf img {
-    height: 1000px;
-}
-
 .secondhalf h2 {
-    color: orange;
-    text-shadow: 2px 2px 20px orange;
+    color: #0000008a;
+    text-shadow: 2px 2px 20px white;
     text-align: center;
     font-size: 40px;
 }
+
+
 
 .items {
     font-weight: bolder;
@@ -121,30 +121,25 @@ img {
     padding: 20px;
     align-items: center;
     justify-content: center;
-
 }
 
 .items input {
     font-weight: bolder;
     text-align: center;
     background-color: rgb(228, 228, 228);
-    display: block;
-    width: 470px;
+    width: 500px;
     padding: 13px;
-    margin: 14px auto;
+    margin: 14px;
     /* border: 2px solid black; */
     border-radius: 21px;
     transition: 0.3s ease;
-    
+
 
 }
 
 .items input:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 22px 6px rgba(19, 20, 18, 0.5);
-
-    
-
 }
 
 .items button {
@@ -153,27 +148,11 @@ img {
     background-color: rgb(228, 228, 228);
     transition: 0.3s ease;
     font-weight: bolder;
-    box-shadow: 1px 1px 22px 6px rgba(19, 20, 18, 0.5);
-
 }
 
 .items button:hover {
-    /* transform: scale(1.05); */
+    transform: scale(1.15);
     background-color: rgba(181, 172, 172, 0.74);
     animation-name: slide;
     animation-duration: 1s;
 }
-
-@keyframes slide {
-    from{
-        top: 0px;
-        left: 0px;
-    }
-
-    to{
-        top: 0px;
-        right: 20px;
-
-    }
-}
-
